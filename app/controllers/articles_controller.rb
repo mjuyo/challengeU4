@@ -1,4 +1,6 @@
-class ArticlesController < ApplicationController
+#business model
+
+class ArticlesController < ApplicationController 
   def index
     @articles = Article.all
   end
